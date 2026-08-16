@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Pankaj Dangi</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">Pankaj<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#" class="tab-link active" data-target="home">Home</a></li>
+            <li><a href="#" class="tab-link" data-target="about">About & Skills</a></li>
+            <li><a href="#" class="tab-link" data-target="projects">Publications</a></li>
+            <li><a href="#" class="tab-link" data-target="contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- HOME TAB -->
+        <section id="home" class="tab-content active">
+            <div class="hero-content fade-in">
+                <div class="profile-img-container">
+                    <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=OZmbSoQAAAAJ&citpid=1" alt="Pankaj Dangi" class="profile-img" onerror="this.src='https://ui-avatars.com/api/?name=Pankaj+Dangi&background=00d09c&color=fff&size=150'">
+                </div>
+                <span class="greeting">Hi, I am</span>
+                <h1 class="gradient-text">Pankaj Dangi</h1>
+                <h2>PhD Scholar | Earth and Environmental Sciences</h2>
+                <p>Specializing in Hydrology, Fluvial Geomorphology, and Climate Change Impact Assessment at IISER Bhopal.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn primary tab-link-btn" data-target="projects">View Publications</a>
+                    <a href="#" class="btn secondary tab-link-btn" data-target="contact">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT TAB -->
+        <section id="about" class="tab-content">
+            <h2 class="section-title fade-in">About <span>Me</span></h2>
+            <div class="about-container fade-in">
+                <div class="glass-card about-text">
+                    <p style="font-size: 1.2rem; margin-bottom: 2rem; color: var(--text-primary); line-height: 1.6;">
+                        I am a PhD scholar in the Department of Earth and Environmental Sciences at the Indian Institute of Science Education and Research (IISER) Bhopal. My research bridges the gap between traditional field hydrology and cutting-edge satellite remote sensing.
+                    </p>
+                    
+                    <h3 style="color: var(--accent-1); margin-bottom: 1.5rem; font-size: 1.4rem;">Primary Research Focus</h3>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 1rem;">
+                        <!-- Focus 1 -->
+                        <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); transition: transform 0.3s ease;">
+                            <h4 style="color: var(--text-primary); margin-bottom: 0.8rem; font-size: 1.1rem;"><i class="fas fa-water" style="color: var(--accent-2); margin-right: 10px; font-size: 1.3rem;"></i> Fluvial Processes & Modelling</h4>
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Deep expertise in <strong>fluvial processes</strong> and <strong>fluvial geomorphology</strong>. I utilize advanced <strong>hydrodynamic</strong> and <strong>hydrological modelling</strong> to understand complex river systems, sediment dynamics, and channel evolution.</p>
+                        </div>
+                        
+                        <!-- Focus 2 -->
+                        <div style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); transition: transform 0.3s ease;">
+                            <h4 style="color: var(--text-primary); margin-bottom: 0.8rem; font-size: 1.1rem;"><i class="fas fa-satellite" style="color: var(--accent-2); margin-right: 10px; font-size: 1.3rem;"></i> Satellite Hydrology & SWOT</h4>
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Pioneering the application of satellite data in hydrology. My current core work involves the groundbreaking <strong>SWOT (Surface Water and Ocean Topography) satellite mission</strong>, specifically focusing on validating its data across the massive <strong>Ganga and Narmada river basins</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="subsection-title">Technical <span>Skills</span></h3>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <h4><i class="fas fa-satellite-dish"></i> Instrumentation Surveys</h4>
+                        <div class="skills">
+                            <span class="skill-tag">ADCP Survey</span>
+                            <span class="skill-tag">Drone Survey</span>
+                            <span class="skill-tag">LiDAR Survey</span>
+                            <span class="skill-tag">DGPS Survey</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category glass-card">
+                        <h4><i class="fas fa-laptop-code"></i> Software Skills</h4>
+                        <div class="skills">
+                            <span class="skill-tag">GIS</span>
+                            <span class="skill-tag">QGIS</span>
+                            <span class="skill-tag">ArcGIS Pro</span>
+                            <span class="skill-tag">Image Processing</span>
+                            <span class="skill-tag">Pointcloud Processing</span>
+                            <span class="skill-tag">Satellite Data Processing</span>
+                            <span class="skill-tag">Radar Data Processing</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h4><i class="fas fa-cogs"></i> Modelling Software</h4>
+                        <div class="skills">
+                            <span class="skill-tag">HEC-RAS</span>
+                            <span class="skill-tag">HEC-HMS</span>
+                            <span class="skill-tag">MIKE-NAM</span>
+                            <span class="skill-tag">MIKE-HYDRO</span>
+                            <span class="skill-tag">MIKE-SHE</span>
+                            <span class="skill-tag">MIKE-21</span>
+                            <span class="skill-tag">MIKE-3</span>
+                            <span class="skill-tag">MIKE-FLOW</span>
+                            <span class="skill-tag">Delft3D</span>
+                            <span class="skill-tag">SWAT</span>
+                            <span class="skill-tag">CROPWAT</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category glass-card">
+                        <h4><i class="fas fa-pen-nib"></i> Writing & Design</h4>
+                        <div class="skills">
+                            <span class="skill-tag">TeX</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">Overleaf</span>
+                            <span class="skill-tag">Inkscape</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PUBLICATIONS TAB -->
+        <section id="projects" class="tab-content">
+            <h2 class="section-title fade-in">Research <span>Publications</span></h2>
+            
+            <div class="scholar-links fade-in">
+                <a href="https://scholar.google.com/citations?user=OZmbSoQAAAAJ&hl=en" target="_blank" class="btn primary"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <a href="https://www.researchgate.net/profile/Pankaj-Dangi-2?ev=hdr_xprf" target="_blank" class="btn secondary"><i class="fab fa-researchgate"></i> ResearchGate</a>
+            </div>
+
+            <div class="publication-list glass-card fade-in">
+                <table class="scholar-table">
+                    <thead>
+                        <tr>
+                            <th>TITLE</th>
+                            <th class="hide-mobile" style="text-align:right;">YEAR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OZmbSoQAAAAJ&citation_for_view=OZmbSoQAAAAJ:u5rmKTwFkO8C" target="_blank" class="pub-title">Spatio-temporal analysis of rainfall extremes and drought variability in the Tel basin, Odisha, India, under changing climate</a>
+                                <div class="pub-authors">P Kumari, HP Singh, P Dangi, AK Shukla</div>
+                                <div class="pub-journal">Innovative Infrastructure Solutions 11 (3), 118</div>
+                            </td>
+                            <td class="pub-year hide-mobile">2026</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OZmbSoQAAAAJ&citation_for_view=OZmbSoQAAAAJ:u-x6o8ySG0sC" target="_blank" class="pub-title">Assessment of climate change impact on surface water using MIKE11 NAM model under SSP scenarios at Sanjay Sagar catchment of Madhya Pradesh, India</a>
+                                <div class="pub-authors">S Ali, B Bharti, HP Singh, RK Jaiswal, P Dangi</div>
+                                <div class="pub-journal">Discover Applied Sciences 8 (6), 697</div>
+                            </td>
+                            <td class="pub-year hide-mobile">2026</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=OZmbSoQAAAAJ&citation_for_view=OZmbSoQAAAAJ:d1gIgj5c5V0C" target="_blank" class="pub-title">Evaluating SWOT capabilities for spatio-temporal river discharge estimation: Focus on the Ganga River</a>
+                                <div class="pub-authors">AK Dubey, R Pradhan, P Dangi, A Gujrati, S Chander, PK Gupta...</div>
+                                <div class="pub-journal">Available at SSRN 5616744</div>
+                            </td>
+                            <td class="pub-year hide-mobile">2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- CONTACT TAB -->
+        <section id="contact" class="tab-content">
+            <h2 class="section-title fade-in">Let's <span>Connect</span></h2>
+            <div class="contact-card glass-card fade-in">
+                <p>I'm always open to discussing new projects, research ideas, or opportunities.</p>
+                
+                <div class="contact-details" style="margin-bottom: 2rem; color: var(--text-secondary); font-size: 1.1rem; line-height: 1.8;">
+                    <p><i class="fas fa-envelope" style="color: var(--accent-1); margin-right: 10px;"></i> pankajdangi@iiserb.ac.in</p>
+                    <p><i class="fas fa-envelope" style="color: var(--accent-1); margin-right: 10px;"></i> pankaj24@iiserb.ac.in</p>
+                    <p><i class="fas fa-envelope" style="color: var(--accent-1); margin-right: 10px;"></i> pankajdangi7828@gmail.com</p>
+                    <p><i class="fas fa-phone" style="color: var(--accent-1); margin-right: 10px;"></i> +91 7909392029</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pankaj-dangi-a3196189/" target="_blank" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://scholar.google.com/citations?user=OZmbSoQAAAAJ&hl=en" target="_blank" class="social-icon" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://www.researchgate.net/profile/Pankaj-Dangi-2?ev=hdr_xprf" target="_blank" class="social-icon" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                    <a href="https://www.instagram.com/pankj_dangi/?hl=en" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pankaj Dangi. Built with ❤️ and Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
